@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>AngularJS IFrame Test</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body ng-app="iframeApp" ng-controller="iFrameCtrl">
+  <ul>
+    <li ng-repeat="msg in messages">
+      {{msg}}
+    </li>
+  </ul>
+  <p>
+    <button ng-click="button()">click me!</button>
+  </p>
+</body>
+</html>
